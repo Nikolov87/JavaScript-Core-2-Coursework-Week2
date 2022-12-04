@@ -15,7 +15,7 @@ let salaries = {
 // WRITE BELOW THIS LINE
 for (const salary in salaries) {
   if (salaries[salary] > 50000) {
-    console.log(`$${salaries[salary]}`)
+    console.log(`${salaries[salary]}`)
   }
 }
 // Expected Result:
